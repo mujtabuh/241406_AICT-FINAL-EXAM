@@ -1,0 +1,208 @@
+body {
+    font-family: Stanford, Source Serif Pro, Georgia, Times, Times New Roman, serif;
+    line-height: 1.6;
+}
+
+.paragraphs {
+    font-size: 1.953125em;
+}
+.nav-item li:hover{
+
+    text-decoration: overline;
+}
+header {
+    background-color: #8C1515;
+    color: white;
+    padding: 15px 0;
+}
+
+.admissiontext {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btn-primary {
+    background-color: #8f1616;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vmin;
+    background: url('Hero.webp') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.headings2 {
+    font-size: 1.5625em;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.paragraphs2 {
+    font-size: 1.5625em;
+    margin-bottom: 0;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.content-section {
+    padding: 60px 15px;
+}
+
+.content-section h2 {
+    color: #070707;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.linkg {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2 {
+    font-size: 1.8em;
+}
+
+.cardhead2 {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.card-text {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.headings {
+    font-size: 3.0517578125em;
+}
+
+.footer2 {
+    background-color: #8f1616;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 60vh;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .content-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .headings {
+
+        font-size: 1.5em;
+
+    }
+
+    .paragraphs {
+
+        font-size: 1em;
+
+    }
+
+    .btn {
+
+        width: 100%;
+
+    }
+
+    .grid1 {
+        grid-template-columns: 1fr;
+    }
+
+    .cardhead {
+        font-size: 18px;
+    }
+
+    .grid2 {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .admissiontext {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .gridbox {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .grid2 {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .admissiontext {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
